@@ -5,7 +5,7 @@ export const projects = [
       description: "Displays current weather using OpenWeather API with 5-day forecast.",
       tags: ["HTML", "CSS","JS","API"],
       github: "https://github.com/harshavardhan0406/Weather-app",
-      demo: "/src/components/Projs/Weather/index.html",
+      demo: "/public/Projs/Weather/index.html",
       image: "/Images/background.jpg"
     },
     {
