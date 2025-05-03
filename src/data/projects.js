@@ -6,7 +6,7 @@ export const projects = [
       tags: ["React", "API", "CSS"],
       github: "#",
       demo: "#",
-      image: "/background.jpg"
+      image: "/Images/background.jpg"
     },
     {
       id: 2,

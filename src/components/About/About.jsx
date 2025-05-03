@@ -1,5 +1,5 @@
 import './About.css'
-import profileImage from '/public/profile.jpg';
+import profileImage from '/public/Images/profile.jpg';
 
 export default function About() {
   return (
@@ -23,8 +23,7 @@ Currently, I'm focused on mastering modern frontend development and exploring fu
           <div className="about-image">
             <div className="image-wrapper">
               <img 
-                src='public/profile.jpg' 
-                alt="Harshavardhan" 
+                src="public/Images/profile.jpg" 
                 className="profile-img"
               />
             </div>
