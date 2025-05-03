@@ -1,5 +1,5 @@
 import './About.css';
-import profileImage from '/public/Images/profile.jpg'; // Correct import path
+import profileImage from '/Images/profile.jpg'; // Correct import path
 
 export default function About() {
   return (
@@ -21,7 +21,7 @@ export default function About() {
           <div className="about-image">
             <div className="image-wrapper">
               <img 
-                src="../../public/Images/profile.jpg" 
+                src="/Images/profile.jpg" 
                 alt="Harshavardhan Reddy M - Web Developer"
                 className="profile-img"
               />
