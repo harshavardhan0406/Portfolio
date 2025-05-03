@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className={`header ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
-        <a href="#" className="logo">Portfo<span>lio</span></a>
+        <a href="#about" className="logo">Portfo<span>lio</span></a>
         
         <button 
           className="menu-btn" 

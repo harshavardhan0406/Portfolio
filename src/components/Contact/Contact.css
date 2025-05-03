@@ -1,45 +1,103 @@
 .contact-section {
-    background-color: var(--background);
-  }
-  
+  background-color: var(--background);
+  padding: 5rem 0; /* Added padding */
+  position: relative;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-family: inherit;
+  transition: var(--transition);
+  font-size: 1rem;
+  background-color: #7DA0CA ;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px rgba(67, 97, 238, 0.2);
+  background-color: white;
+}
+
+.form-group textarea {
+  min-height: 150px;
+  resize: vertical;
+  line-height: 1.6;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 1rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-top: 1rem;
+}
+
+.contact-form button:hover {
+  background: #7DA0CA;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+  color: rgb(0, 0, 0);
+}
+
+/* Error states */
+.form-group.error input,
+.form-group.error textarea {
+  border-color: #e53e3e;
+}
+
+.error-message {
+  color: #e53e3e;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* Success message */
+.success-message {
+  color: #38a169;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .contact-form {
-    max-width: 600px;
-    margin: 0 auto;
+    padding: 1.5rem;
   }
   
-  .form-group {
-    margin-bottom: 1.5rem;
+  .contact-section {
+    padding: 3rem 0;
   }
-  
-  .form-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
-    color: var(--dark);
-  }
-  
-  .form-group input,
-  .form-group textarea {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-family: inherit;
-    transition: var(--transition);
-  }
-  
-  .form-group input:focus,
-  .form-group textarea:focus {
-    outline: none;
-    border-color: var(--primary);
-    box-shadow: 0 0 0 2px rgba(67, 97, 238, 0.2);
-  }
-  
-  .form-group textarea {
-    min-height: 150px;
-    resize: vertical;
-  }
-  
-  .contact-form button {
-    width: 100%;
-  }
+}
