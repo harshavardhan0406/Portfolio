@@ -3,9 +3,9 @@ export const projects = [
       id: 1,
       title: "Weather App",
       description: "Displays current weather using OpenWeather API with 5-day forecast.",
-      tags: ["React", "API", "CSS"],
-      github: "#",
-      demo: "#",
+      tags: ["HTML", "CSS","JS","API"],
+      github: "https://github.com/harshavardhan0406/Weather-app",
+      demo: "/Projs/Weather/index.html",
       image: "/Images/background.jpg"
     },
     {

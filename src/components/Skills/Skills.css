@@ -14,6 +14,7 @@
     margin: 0 auto;
     position: relative;
     min-height: 300px;
+
   }
   
   .skill-item {
@@ -38,7 +39,18 @@
     background: #1D719D;
     color: aliceblue;
     z-index: 10;
+    
   }
+  .skill-item i,
+.skill-item img {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.skill-item:hover i,
+.skill-item:hover img {
+  transform: rotate(10deg) scale(1.2);
+  color: white; /* Optional: change icon color */
+}
   
   .skill-item i {
     font-size: 2.5rem;

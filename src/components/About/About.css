@@ -99,6 +99,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .image-wrapper {
@@ -111,6 +112,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 2s;
 }
 
 .profile-img {
@@ -118,15 +120,18 @@
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+  transition: 2s;
 }
 
 
 .image-wrapper:hover {
   transform: scale(1.02);
+  transition: 2s;
   box-shadow: var(--shadow-hover);
 }
 
 .image-wrapper:hover .profile-img {
+  transition: 2s;
   transform: scale(1.05);
 }
 
