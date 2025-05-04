@@ -63,7 +63,7 @@
 
 .menu-btn {
   display: none;
-  background: #7DA0CA;
+  background: none;
   border: none;
   color: var(--dark);
   font-size: 1.5rem;
